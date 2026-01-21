@@ -1,0 +1,34 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+ int choice;
+ printf("\t language\n");
+ printf("1.tamil\n");
+ printf("2.english\n");
+ printf("3.hindi\n");
+ printf("4.malayalam\n");
+ printf("Enter the choice:");
+ scanf("%d",&choice);
+
+switch(choice){
+    case 1: 
+    printf("you have choosen:tamil\n");
+    
+    break;
+case 2:
+printf("you have choosen:english\n");
+break;
+case 3:
+printf("you have choosen:hindi\n");
+break;
+case 4:
+printf("you have choosen:malayalam\n");
+break;
+default:
+printf("\tInvalid input\n");
+printf("please choose between 1-4");
+}
+
+    return 1;
+}
